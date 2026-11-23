@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Soha Patel, B.Tech CSE (AI/ML) student.">
+    <title>Soha Patel | B.Tech CSE (AI/ML) Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <a href="#home" class="logo">Soha<span>.</span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <p class="intro">HELLO, I'M</p>
+                <h1>Soha Patel</h1>
+                <h2>B.Tech CSE (AI/ML) Student</h2>
+                <p class="hero-description">
+                    I am a Computer Science Engineering student specialising in
+                    Artificial Intelligence and Machine Learning. I enjoy programming,
+                    web development and exploring innovative technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle" aria-label="Soha Patel initials">SP</div>
+                <p>Creative. Curious. Always Learning.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section container">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    Hello! I am Soha Patel, a B.Tech student specialising in Computer
+                    Science Engineering (Artificial Intelligence and Machine Learning).
+                    I am studying at Asha M Tarsadia Institute of Computer Science and
+                    Technology, Bardoli.
+                </p>
+                <p>
+                    I am interested in programming, web development, artificial
+                    intelligence and machine learning. I enjoy learning new technologies,
+                    developing practical projects and improving my technical and
+                    problem-solving skills.
+                </p>
+                <p><strong>College:</strong> Asha M Tarsadia Institute of Computer Science and Technology, Bardoli</p>
+                <p><strong>Course:</strong> B.Tech CSE (AI/ML)</p>
+            </div>
+        </section>
+
+        <section id="education" class="section container">
+            <p class="section-label">MY ACADEMIC BACKGROUND</p>
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-mark">🎓</div>
+                <div>
+                    <h3>Bachelor of Technology – Computer Science Engineering (AI/ML)</h3>
+                    <p>Asha M Tarsadia Institute of Computer Science and Technology, Bardoli</p>
+                    <span class="muted">Currently pursuing</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section container">
+            <p class="section-label">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><span>🌐</span><h3>HTML</h3><p>Web page structure</p></div>
+                <div class="skill-card"><span>🎨</span><h3>CSS</h3><p>Web page styling</p></div>
+                <div class="skill-card"><span>⚡</span><h3>JavaScript</h3><p>Basic interactivity</p></div>
+                <div class="skill-card"><span>🐍</span><h3>Python</h3><p>Programming</p></div>
+                <div class="skill-card"><span>💾</span><h3>SQL</h3><p>Database basics</p></div>
+                <div class="skill-card"><span>🤝</span><h3>Communication</h3><p>Teamwork & collaboration</p></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section container">
+            <p class="section-label">SOME THINGS I'VE WORKED ON</p>
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">💊</div>
+                    <h3>Medical Store Management System</h3>
+                    <p>A student project concept for managing medicines, inventory and billing operations.</p>
+                    <div class="tags"><span>PHP</span><span>MySQL</span><span>HTML</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">🛡️</div>
+                    <h3>AI-Based Document Screening</h3>
+                    <p>A project concept for screening identity documents and checking information consistency.</p>
+                    <div class="tags"><span>Python</span><span>AI</span><span>OCR</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive website presenting my background, skills, projects and contact details.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </article>
+            </div>
+            <p class="project-note">Add your own project repository links when they are available.</p>
+        </section>
+
+        <section id="contact" class="section container">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-card">
+                <p>Have a project idea or want to connect? Feel free to send me a message.</p>
+                <form id="contact-form">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <label for="message">Your message</label>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="mailto:25amtics104@gmail.com">Email</a>
+                    <a href="https://github.com/SOHA-07" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/soha-patel-ab277b42b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section container">
+            <h2>Want to know more about me?</h2>
+            <p>Add your resume PDF to the resume folder to enable this download.</p>
+            <a href="resume/Soha_Patel_Resume.pdf" class="btn primary-btn" download>Download My Resume ↓</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Soha Patel. All Rights Reserved.</p>
+        <p>Designed with ♥ using HTML, CSS & JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
